@@ -1,3 +1,63 @@
+# 📚 Loop Learner: Hiragana Quiz App
+
+Loop Learner is a lightweight, modular quiz system designed to help users master Japanese Hiragana through visual recognition and repetition. Built with React, it uses a JSON-driven structure to dynamically load character quizzes, making it easy to expand or customize.
+
+---
+
+## 🚀 Features
+
+- 🧠 Interactive multiple-choice quizzes for each Hiragana character  
+- 🖼️ Image-based questions with randomized answer sets  
+- 📦 JSON-powered content system for easy updates and scalability  
+- 💡 Clean UI optimized for learning and retention  
+- 🔒 Fully local and private—no external dependencies or APIs
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Create React App)  
+- JavaScript  
+- CSS Modules  
+- Static JSON for quiz data
+
+---
+
+## 📁 Project Structure
+
+loop-learner/
+ ├── public/
+  │ └── images/ # Hiragana character PNGs 
+ ├── src/
+  │ ├── components/ # Quiz UI components 
+  │ ├── data/ # JSON quiz definitions 
+  │ └── App.js # Main app logic 
+├── package.json 
+└── README.md
+
+## Quiz Format (JSON)
+{
+  text: "What is this character?",
+  image: "/images/hiragana_ka.png",
+  answers: [
+    { text: "KA", correct: true },
+    { text: "KI", correct: false },
+    { text: "KU", correct: false },
+    { text: "KE", correct: false }
+  ]
+}
+
+
+## 🧠 Future Plans
+
+- Add Katakana and Kanji modules
+
+- Integrate spaced repetition logic
+
+- Build a visual dashboard for quiz tracking
+
+- Optional export to GitHub Pages or desktop app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +128,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🐾 Credits
+Created by Kuro Phantom
