@@ -24,7 +24,7 @@ Loop Learner is a lightweight, modular quiz system designed to help users master
 ---
 
 ## 📁 Project Structure
-
+<pre>
 loop-learner/
  ├── public/
   │ └── images/ # Hiragana character PNGs 
@@ -34,6 +34,7 @@ loop-learner/
   │ └── App.js # Main app logic 
 ├── package.json 
 └── README.md
+</pre>
 
 ## Quiz Format (JSON)
 {
