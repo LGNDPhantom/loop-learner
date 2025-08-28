@@ -37,6 +37,7 @@ loop-learner/
 </pre>
 
 ## Quiz Format (JSON)
+<pre>
 {
   text: "What is this character?",
   image: "/images/hiragana_ka.png",
@@ -47,6 +48,7 @@ loop-learner/
     { text: "KE", correct: false }
   ]
 }
+</pre>
 
 
 ## 🧠 Future Plans
