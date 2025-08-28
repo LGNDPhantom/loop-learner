@@ -1,0 +1,9 @@
+/* In HomePage.module.css or global styles */
+.page {
+  padding-top: 80px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
