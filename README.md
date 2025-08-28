@@ -27,11 +27,11 @@ Loop Learner is a lightweight, modular quiz system designed to help users master
 <pre>
 loop-learner/
  ├── public/
-  │ └── images/ # Hiragana character PNGs 
+  │ └── images/      # Hiragana character PNGs 
  ├── src/
-  │ ├── components/ # Quiz UI components 
-  │ ├── data/ # JSON quiz definitions 
-  │ └── App.js # Main app logic 
+  │ ├── components/  # Quiz UI components 
+  │ ├── data/        # JSON quiz definitions 
+  │ └── App.js       # Main app logic 
 ├── package.json 
 └── README.md
 </pre>
